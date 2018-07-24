@@ -105,6 +105,7 @@ module.exports = ({production, server, extractCss, coverage} = {}) => ({
     }),
     new CopyWebpackPlugin([
       { from: 'static/favicon.ico', to: 'favicon.ico' },
+      { from: 'static/img/*', to: 'img/[name].[ext]' },
         { from: 'static/svg/*', to: 'svg,[name].[ext]' }
     ]),
     ...when(extractCss, new ExtractTextPlugin({
