@@ -70,8 +70,24 @@ section {
 .icon-list{
   background: url("svg/005-man.svg") no-repeat center / contain;
 }
+.icon-option{
+  padding:0;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  }
+.icon-dots{
+  margin: 4px;
+  width: 1px;
+  height:1px;
+  border:1px solid #5bc0cd;
+}
 .navbaricon{
   float: left;
+}
+.navoption{
+  float: right;
 }
 .pictureDetail {
   max-width: 425px;
