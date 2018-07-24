@@ -1,9 +1,37 @@
+@import url('../node_modules/semantic-ui/dist/semantic.min.css');
+body {
+  background: #6e6e6e !important;
+}
+.ui.list{
+  width: 100%;
+}
+.ui.list .item {
+  display: flex;
+  align-items: center;
+}
+.ui.list .image {
+  height: 60px;
+  width: 60px;
+}
 .splash {
   text-align: center;
   margin: 10% 0 0 0;
   box-sizing: border-box;
 }
 
+.contact__container {
+  background: #4a4a4a;
+  padding: 5px !important;
+}
+.ui.list .list>.item a.header, .ui.list>.item a.header {
+  color: #5bc0cd !important;
+  padding: 0 0 0 1rem;
+  font-size: 1.4rem;
+}
+.ui.list .list>.item .description, .ui.list>.item .description {
+  color: white !important;
+
+}
 .splash .message {
   font-size: 72px;
   line-height: 72px;
@@ -39,10 +67,6 @@
     overflow-y: inherit;
     overflow-x: inherit;
   }
-}
-
-section {
-  margin: 0 20px;
 }
 
 .navbar-nav li.loader {
