@@ -1,9 +1,25 @@
 <template>
   <require from="./nav-bar.html"></require>
+  <require from="./welcome.html"></require>
+  <require from="./child-router.html"></require>
+  <require from="./users.html"></require>
   
   <nav-bar router.bind="router"></nav-bar>
 
-  <div class="page-host">
-    <router-view></router-view>
+  <!--<div class="page-host">-->
+    <!--<router-view></router-view>-->
+  <!--</div>-->
+  <div id="swiper" class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" data-hash="chats">
+        <welcome></welcome>
+      </div>
+      <div class="swiper-slide" data-hash="group">
+        <child-router></child-router>
+      </div>
+      <div class="swiper-slide" data-hash="contacts">
+        <users></users>
+      </div>
+    </div>
   </div>
 </template>

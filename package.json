@@ -119,6 +119,7 @@
     "jquery": "3.2.1",
     "popper.js": "^1.14.3",
     "semantic-ui": "^2.3.3",
-    "semantic-ui-list": "^2.3.1"
+    "semantic-ui-list": "^2.3.1",
+    "swiper": "^4.3.3"
   }
 }
