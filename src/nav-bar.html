@@ -1,37 +1,30 @@
 <template>
-  <require from="./inline-svg"></require>
-  <nav class="navbar fixed-top" role="navigation">
-    <div class="row">
-      <div class="col-10">
+    <nav class="navbar fixed-top" role="navigation">
         <div id="navabr" class="row">
-          <div class="col-4 navbaricon">
-            <a>
-              <inline-svg class="svg icons icon-chat" svg="svg/001.svg" width="30px"></inline-svg>
-            </a>
-          </div>
-          <div class="col-4 navbaricon">
-            <a>
-              <inline-svg class="icons icon-group svg" svg="svg/002.svg" width="30px"></inline-svg>
-            </a>
-          </div>
-          <div class="col-4 navbaricon">
-            <a>
-              <inline-svg class="svg icons icon-list" svg="svg/003.svg" width="30px"></inline-svg>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="col-2">
-        <div class="navoption">
-          <a>
-            <div class="icons icon-option">
-              <span class="icon-dots"></span>
-              <span class="icon-dots"></span>
-              <span class="icon-dots"></span>
+            <div class="col-4 navbaricon">
+                <a>
+                    <img class="svg icons icon-chat" src="../static/svg/001.svg" width="30px">
+                </a>
             </div>
-          </a>
+            <div class="col-4 navbaricon">
+                <a>
+                    <img class="icons icon-group svg" src="../static/svg/002.svg" width="30px">
+                </a>
+            </div>
+            <div class="col-4 navbaricon">
+                <a>
+                    <img class="svg icons icon-list" src="../static/svg/003.svg" width="30px">
+                </a>
+            </div>
         </div>
-      </div>
-    </div>
-  </nav>
+        <div class="navoption">
+            <a>
+                <div class="icons icon-option">
+                    <span class="icon-dots"></span>
+                    <span class="icon-dots"></span>
+                    <span class="icon-dots"></span>
+                </div>
+            </a>
+        </div>
+    </nav>
 </template>

@@ -82,20 +82,16 @@ body {
   width: 100%;
   height: 75px;
 }
-.icons{
-  padding:0 40px;
+.navbaricon svg{
   height: 30px;
   width: 30px;
   color: transparent !important;
 }
-.icon-1{
-  background: url("svg/001.svg") no-repeat center / contain;
+.navbaricon:focus, .navbar:active {
+  outline: 0;
 }
-.icon-2{
-  background: url("svg/002.svg") no-repeat center / contain;
-}
-.icon-3{
-  background: url("svg/003.svg") no-repeat center / contain;
+.navbaricon.swiper-pagination-bullet-active svg path{
+  fill: #ffffff;
 }
 .icon-option{
   padding:0;
