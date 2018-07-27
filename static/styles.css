@@ -86,15 +86,16 @@ body {
   padding:0 40px;
   height: 30px;
   width: 30px;
+  color: transparent !important;
 }
-.icon-chat{
-  background: url("svg/006-speech-bubble.svg") no-repeat center / contain;
+.icon-1{
+  background: url("svg/001.svg") no-repeat center / contain;
 }
-.icon-group{
-  background: url("svg/007-mail.svg") no-repeat center / contain;
+.icon-2{
+  background: url("svg/002.svg") no-repeat center / contain;
 }
-.icon-list{
-  background: url("svg/005-man.svg") no-repeat center / contain;
+.icon-3{
+  background: url("svg/003.svg") no-repeat center / contain;
 }
 .icon-option{
   padding:0;
@@ -102,15 +103,25 @@ body {
   display: flex;
   flex-direction: column;
   align-items: right;
-  }
+}
 .icon-dots{
   margin: 4px;
   width: 1px;
   height:1px;
   border:1px solid #5bc0cd;
 }
+#magic-line { position: absolute;
+  display: block; bottom: -2px; left: 0; width: 100px; height: 2px; background: #fe4902; }
 .navbaricon{
-  float: left;
+  width: unset !important;
+  height: unset !important;
+  display: inline-block;
+  border-radius: 0 !important;
+  background: transparent !important;
+  opacity: 1 !important;
+}
+.navbaricon a {
+  display: block;
 }
 .navoption{
   float: right;
